@@ -24,3 +24,14 @@ function App() {
 }
 
 export default App;
+
+function menuCall () {
+  return(
+  <div className="testing">
+      <ul>
+        <li> menu item1</li>
+        <li> menu item2</li>
+        <li> menu item3</li>
+      </ul>
+  </div>);
+}
